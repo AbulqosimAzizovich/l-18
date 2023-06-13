@@ -1,0 +1,147 @@
+.types {
+    padding-top: 100px;
+    .wrapper {
+        &__grid {
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            gap: 24px;
+            height: 100%;
+
+            &--item1 {
+                width: 658px;
+                height: 640px;
+                background-image: url("../../assets/images/hr1_1.png");
+                grid-row-start: 1;
+                grid-column-start: 1;
+                grid-row-end: 3;
+                grid-column-end: 2;
+                p {
+                    padding: 30px 349px 579px 30px;
+                    font-family: "Arvo", serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 130%;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.12em;
+                    color: #ffffff;
+                }
+
+                button {
+                    position: relative;
+                    left: 478px;
+                    top: -90px;
+                    background: rgba(79,79,79,0.2);
+                    border: 1px solid #4F4F4F;
+                    border-radius: 10px;
+                    padding: 23.5px 44px;
+                    font-family: "Arvo", serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 130%;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.12em;
+                    color: #ffffff;
+
+                    &:hover{
+                        background: rgba(146, 141, 141, 0.5);
+                    }
+                }
+            }
+            &--item2 {
+                width: 658px;
+                height: 308px;
+                background-image: url("../../assets/images/hr1_2.png");
+                grid-row-start: 1;
+                grid-column-start: 2;
+                grid-row-end: 2;
+                grid-column-end: 3;
+                p {
+                    padding: 30px 349px 579px 30px;
+                    font-family: "Arvo", serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 130%;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.12em;
+                    color: #ffffff;
+                }
+
+                button {
+                    position: relative;
+                    left: 478px;
+                    top: -420px;
+                    background: rgba(79,79,79,0.2);
+                    border: 1px solid #4F4F4F;
+                    border-radius: 10px;
+                    padding: 23.5px 44px;
+                    font-family: "Arvo", serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 130%;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.12em;
+                    color: #ffffff;
+
+                    &:hover{
+                        background: rgba(146, 141, 141, 0.5);
+                    }
+                }
+            }
+
+            &--item3 {
+                width: 658px;
+                height: 308px;
+                background-image: url("../../assets/images/hr1_3.png");
+                grid-row-start: 2;
+                grid-column-start: 2;
+                grid-row-end: 3;
+                grid-column-end: 3;
+
+                p {
+                    padding: 30px 349px 579px 30px;
+                    font-family: "Arvo", serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 130%;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.12em;
+                    color: #ffffff;
+                }
+
+                button {
+                    position: relative;
+                    left: 478px;
+                    top: -420px;
+                    background: rgba(79,79,79,0.2);
+                    border: 1px solid #4F4F4F;
+                    border-radius: 10px;
+                    padding: 23.5px 44px;
+                    font-family: "Arvo", serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 130%;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.12em;
+                    color: #ffffff;
+
+                    &:hover{
+                        background: rgba(146, 141, 141, 0.5);
+                    }
+                }
+            }
+        }
+    }
+}

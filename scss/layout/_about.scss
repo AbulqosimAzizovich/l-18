@@ -1,0 +1,33 @@
+.about {
+    background-image: url("../../assets/images/hr1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 790px;
+    padding-top: 296px;
+    border-radius: 0px 0px 30px 30px;
+    padding-bottom: 366px;
+    .wrapper {
+        h1 {
+            font-family: 'Arvo', serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 49px;
+            line-height: 130%;
+            display: flex;
+            align-items: center;
+            color: #ffffff;
+        }
+        h2 {
+            font-family: 'Arvo', serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 39px;
+            line-height: 130%;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.01em;
+            color: #ffffff;
+        }
+    }
+}
