@@ -411,6 +411,125 @@ header .nav__wrapper--down .wrapper__content p:hover {
   border: 0.5px solid #FFFFFF;
 }
 
+.vehicles {
+  padding-top: 140px;
+}
+.vehicles .wrapper__h {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.vehicles .wrapper__h h2 {
+  font-family: "Arvo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.vehicles .wrapper__type {
+  display: flex;
+  align-items: center;
+}
+.vehicles .wrapper__type a:nth-child(1) {
+  padding: 22px 274px;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px 0px 0px 10px;
+  text-decoration: none;
+  color: #000000;
+}
+.vehicles .wrapper__type a:nth-child(1) p {
+  font-family: "Arvo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+.vehicles .wrapper__type a:nth-child(1) p:hover {
+  color: #d9d9d9;
+}
+.vehicles .wrapper__type a:nth-child(1):hover {
+  transition: all 0.7s ease;
+  background: #4071cb;
+  color: #d9d9d9;
+}
+.vehicles .wrapper__type a:nth-child(2) {
+  padding: 22px 298px;
+  border: 1px solid #d9d9d9;
+  border-radius: 0px 10px 10px 0px;
+  text-decoration: none;
+  color: #000000;
+}
+.vehicles .wrapper__type a:nth-child(2) p {
+  font-family: "Arvo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+.vehicles .wrapper__type a:nth-child(2) p:hover {
+  color: #d9d9d9;
+}
+.vehicles .wrapper__type a:nth-child(2):hover {
+  transition: all 0.7s ease;
+  background: #4071cb;
+  color: #d9d9d9;
+}
+.vehicles .wrapper__cars {
+  padding-top: 62px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.vehicles .wrapper__cars--div {
+  text-align: center;
+}
+.vehicles .wrapper__cars--div p {
+  padding-top: 10px;
+  font-family: "Arvo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  color: #4071cb;
+}
+.vehicles .wrapper button {
+  position: relative;
+  left: 520px;
+  top: 40px;
+  font-family: "Arvo", serif;
+  padding: 11px 86px;
+  border: 1px solid #4071cb;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #4071cb;
+}
+.vehicles .wrapper button:hover {
+  background: #4071cb;
+  color: #F5F5F5;
+  transition: all 0.5s ease-in;
+}
+
 .about {
   background-image: url("../../assets/images/hr1.jpg");
   background-repeat: no-repeat;
@@ -442,13 +561,34 @@ header .nav__wrapper--down .wrapper__content p:hover {
   letter-spacing: 0.01em;
   color: #ffffff;
 }
+.about .wrapper__div {
+  clip-path: polygon(20% 10%, 80% 10%, 100% 100%, 0% 100%);
+  background: #F5F5F5;
+  position: relative;
+  padding: 19px 120px 10px 135px;
+  top: 263px;
+  left: 488px;
+  width: 360px;
+  height: 52px;
+  border-radius: 10px 10px 10px 10px;
+}
+.about .wrapper__div h2 {
+  font-family: "Arvo", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
 
 .types {
   padding-top: 100px;
 }
 .types .wrapper__grid {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 24px;
   height: 100%;
