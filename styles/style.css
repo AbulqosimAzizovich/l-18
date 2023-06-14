@@ -378,7 +378,6 @@ header .nav__wrapper--top-right h3 {
   align-items: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  border: 0.3px solid #ffffff;
 }
 header .nav__wrapper--down {
   border-top: 1px solid #FFFFFF;
@@ -639,6 +638,7 @@ header .nav__wrapper--down .wrapper__content p:hover {
 
 .buycar {
   padding-top: 165px;
+  margin-bottom: 110px;
 }
 .buycar .wrapper h1 {
   font-family: "Arvo", serif;
@@ -885,6 +885,46 @@ header .nav__wrapper--down .wrapper__content p:hover {
 .buycar .wrapper__gridb--item-2-p a:hover {
   background: #F5F5F5;
   transition: all 0.3s ease-in-out;
+}
+
+.audi {
+  background-image: url("../../assets/images/nimadur 2.png");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.audi .wrapper {
+  font-family: "Arvo", serif;
+  display: flex;
+  gap: 13px;
+}
+.audi .wrapper__card {
+  width: 315px;
+  height: 325px;
+  padding: 30px 24px 30px 15px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(14.5px);
+  position: relative;
+  top: 350px;
+  border-radius: 10px;
+}
+.audi .wrapper__card h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  color: #000000;
+  margin-bottom: 103px;
+}
+.audi .wrapper__card p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  color: #000000;
 }
 
 .about {
